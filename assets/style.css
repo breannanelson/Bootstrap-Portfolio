@@ -1,0 +1,82 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #310a0a;
+} 
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    width: 350px;
+    height: 100px;
+    margin: 0;
+    padding-top: 30px;
+    background-color: rgba(124, 6, 6, 0.4);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* .navbar-nav {
+    float: right;
+    padding-top: 45px;
+
+} */
+
+
+
+body {
+    background: url(./images/backgroundPhoto.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.mainContent {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0 20px 30px;
+    width: 80%;
+}
+
+
+.sideContent {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50%;
+    margin-left: 33px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1, .info {
+    color: white;
+}
+
+hr {
+    margin: 0 20px 20px 0;
+    padding-right: 10px;
+    background-color: #673939;
+}
+
+.portPhoto {
+    float: left;
+    width: 25%;
+    height: 35%;
+    margin-right: 3%;
+}
+
+.info {
+    float: right;
+    margin-right: 3%;
+}
+
+
