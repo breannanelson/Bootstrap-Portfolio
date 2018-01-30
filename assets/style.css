@@ -178,4 +178,13 @@ label {
     padding-left: 60px;
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .sideContent {
+        margin-top: 35px;
+        margin-left: 0;
+    }
+}
+
 
