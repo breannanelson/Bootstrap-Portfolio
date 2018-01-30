@@ -187,4 +187,10 @@ label {
     }
 }
 
+@media screen and (max-width: 670px) {
+    nav {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
 
