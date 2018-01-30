@@ -4,7 +4,6 @@ html {
 }
 
 body {
-    /* Margin bottom by footer height */
     margin-bottom: 160px;
     background: url(./images/backgroundPhoto.jpg);
     background-attachment: fixed;
@@ -12,8 +11,6 @@ body {
     background-position: center;
     background-size: cover;
 }
-
-
 
 nav {
     background-color: rgba(0, 0, 0, 0.3);
@@ -49,19 +46,19 @@ nav {
    color: #ffffff;
    text-decoration: none;
 }
+
 .nav-link:hover
 {
     color: #ffffff;
     text-shadow: 0 0 20px #7eda92, 0 0 5px rgb(27, 143, 71);
     text-decoration: none;
 }
+
 .nav-link:active
 {
    color: #ffffff;
    text-decoration: none;
 }
-
-
 
 main {
     padding-top: 150px;
@@ -70,7 +67,6 @@ main {
 .mainContent {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 30px 20px 30px;
-    /* border: 4px solid rgba(49, 7, 7, 0.3); */
 }
 
 
@@ -81,12 +77,11 @@ main {
     margin-left: 33px;
     padding: 20px;
     text-align: center;
-    color: white;
-    /* border: 4px solid rgba(49, 7, 7, 0.3); */
+    color: #ffffff;
 }
 
 h1, .info, #footer, .nav-link {
-    color: white;
+    color: #ffffff;
 }
 
 hr {
